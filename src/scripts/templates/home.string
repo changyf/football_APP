@@ -15,7 +15,7 @@
         <div class="swiper-slide">
             <nav class="nav">
               <ul>
-                <li class='active' action-type='tap.slide'>足球现场</li>
+                <li class='active' action-type='tap.slide'>流光暗转</li>
                 <li action-type='tap.slide'>足球生活</li>
                 <li action-type='tap.slide'>足球美女</li>
               </ul>
