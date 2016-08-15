@@ -1,0 +1,30 @@
+@import "../../lib/widget/yo-dialog"; 
+@include yo-dialog(
+	$name:a,
+	$height:1.8rem
+){
+	.title{
+		color:#0CC140;
+	}
+	.bd input{
+		margin-top:0.1rem;
+		margin-left:10px;
+		&:focus{
+			outline:none;
+		};
+		border:none; 
+		padding-left:10px;
+		height:0.25rem;
+	}
+	.bd p{
+		font-size: 0.12rem;
+	}
+	.ft button{
+		height:0.4rem;
+		line-height: 0.4rem;
+		font-size: 0.14rem;
+		&:nth-of-type(2){
+			color:#0CC140;
+		};
+	}
+}

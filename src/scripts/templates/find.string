@@ -1,0 +1,28 @@
+<header class="header1">
+	<a class='yo-ico' action-type='go.index'>&#xe605;</a>
+	<h3>发现</h3>
+</header>
+<div class="info">
+	<input type="text" placeholder="请输入昵称"></input>
+	<button>取消</button>
+</div>
+<section class="findcontent">
+	<div class="findscoller">
+		<dl class="dl">
+			<dt><img src="images/Pikachu.jpg"></dt>
+			<dd><h4>朴智星</h4><p>朴智星韩国站中国需做好准备</p><button>关注</button></dd>
+		</dl>
+		<dl class="dl">
+			<dt><img src="images/Pikachu.jpg"></dt>
+			<dd><h4>朴智星</h4><p>朴智星韩国站中国需做好准备</p><button>关注</button></dd>
+		</dl>
+		<dl class="dl">
+			<dt><img src="images/Pikachu.jpg"></dt>
+			<dd><h4>朴智星</h4><p>朴智星韩国站中国需做好准备</p><button>关注</button></dd>
+		</dl>
+		<dl class="dl">
+			<dt><img src="images/Pikachu.jpg"></dt>
+			<dd><h4>朴智星</h4><p>朴智星韩国站中国需做好准备</p><button>关注</button></dd>
+		</dl>
+	</div>
+</section>

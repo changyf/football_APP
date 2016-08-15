@@ -1,0 +1,67 @@
+@import "../../lib/element/yo-loading";
+html,body,.m-detail{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.m-detail{
+	@include flexbox();
+	@include flex-direction(column);
+}
+.m-detail_header{
+	width:100%;
+    height:0.44rem;
+    background:#0CC140;
+    .ul1{
+    	width:100%;
+		height:100%;
+		@include flexbox();
+		>li{
+			width:0.44rem;
+			height:100%;
+			color:#fff;
+
+			&:nth-child(1){
+				text-align: center;
+				line-height: 0.44rem;
+				font-size:0.20rem;
+			};
+			&:nth-child(3){
+				text-align: center;
+				line-height: 0.44rem;
+				font-size:0.20rem;
+			};
+			&:nth-child(2){
+				@include flex(1);
+				@include flexbox();
+				@include justify-content(center);
+				@include align-items(center);
+
+			};
+				
+		}
+    }
+}
+.m-detail_main{
+	@include flex(1);
+	width:100%;
+	height:100%;
+	background:pink;
+	img{
+		width:100%;height:auto;
+		margin-top:10px;
+	}
+	b{
+		width:100%;
+		height:auto;
+		line-height: 25px;
+		text-align: center;
+		display: block;
+		font-size: 0.12rem;
+		font-weight: normal;
+		padding: 0px 10px;
+		-webkit-box-sizing:border-box; 
+	}
+}
+@include yo-loading( $name: b,$ico-color:#0CC140, $color:#0CC140);
+

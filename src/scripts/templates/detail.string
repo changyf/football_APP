@@ -1,0 +1,18 @@
+<div class="m-detail">
+<header class="m-detail_header">
+	  <ul class='ul1'>
+       	<li class='yo-ico' action-type='goto.back'>&#xe605;</li>
+       	<li ms-text='title'>
+       	  {{title}}
+       	</li>
+       	<li class='yo-ico'>&#xe609;</li>
+       </ul>
+</header>  
+<main class="m-detail_main" ms-visible='isShowloading'>
+	<img ms-src='imgsrc'>
+	<article>{{description}}</article>
+</main> 
+</div>
+<div class="yo-loading yo-loading-b" ms-visible='!isShowloading'>
+	<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+</div>

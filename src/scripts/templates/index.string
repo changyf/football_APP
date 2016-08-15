@@ -1,0 +1,13 @@
+<div class="container">
+    <main class="main">
+    </main>
+    <footer class="footer">
+      <ul>
+        <li class="on" action-type='switch.tabs' data-tag='home'><i class='yo-ico'>&#xe64f;</i><b>首页</b></li>
+        <li action-type='switch.tabs' data-tag='find'><i class='yo-ico'>&#xe604;</i><b>发现</b></li>
+        <li><i class='yo-ico camera'>&#xe633;</i><b></b></li>
+        <li action-type='goto.my' data-tag='my'><i class='yo-ico'>&#xe609;</i><b>我的</b></li>
+        <li><i class='yo-ico'>&#xe600;</i><b>退出</b></li>
+      </ul>
+    </footer>
+</div>

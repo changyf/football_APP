@@ -1,0 +1,63 @@
+ <header class="header">
+            <ul class='ul1'>
+              <li class='yo-ico'>&#xe605;</li>
+              <li>
+                <ol class='ol'>
+                  <li class='active' action-type='hot.slide'>关注</li>
+                  <li action-type='hot.slide'>热点</li>
+                </ol>
+              </li>
+              <li class='yo-ico'>&#xe609;</li>
+            </ul>
+</header>
+<div class="swiper-container" id="swiper-home">
+    <div class="swiper-wrapper" id="swiper-wrapper">
+        <div class="swiper-slide">
+            <nav class="nav">
+              <ul>
+                <li class='active' action-type='tap.slide'>足球现场</li>
+                <li action-type='tap.slide'>足球生活</li>
+                <li action-type='tap.slide'>足球美女</li>
+              </ul>
+            </nav>
+          <section class="content">
+          <div class="swiper-container" id="swiper-slide">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div spa-widget='scroll' data-scroll-id='homelist'>
+                     <div class="scoller">
+                          <div class="head">
+                               <img src="/football/images/arrow.png"/>
+                               <span>下拉刷新...</span>
+                          </div>  
+                            <ul ms-repeat-value='liveData'>   <!--在ul上添加ms-repeat-value='liveData'指的是便利数据      value指的是数组中的每一个对象:-->  
+                               <li action-type='goto.detail' ms-attr-data-id='value[0].id'>
+                                  <img ms-src='value[0].img'>
+                                  <b ms-text='value[0].title'></b>
+                              </li>
+                              <li></li>
+                              <li ms-class-hide="!value[1]" action-type='goto.detail' ms-attr-data-id='value[1].id'>
+                                  <img ms-src='value[1].img'>
+                                  <b ms-text='value[1].title'></b>
+                              </li>
+                            </ul>
+                           <div class="foot">
+                            <img src="/football/images/arrow.png"/>
+                            <span>上拉加载更多...</span>
+                          </div>  
+                        
+                     </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">足球生活</div>
+                  <div class="swiper-slide">足球美女</div>
+              </div>
+           </div>
+</section>
+        </div>
+        <div class="swiper-slide">
+            关注生活，体验人生！
+        </div>
+    </div>
+</div>
+
